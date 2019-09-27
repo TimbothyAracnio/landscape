@@ -8,10 +8,10 @@ asalt = turtle.Turtle()
 houz = turtle.Turtle()
 tres = turtle.Turtle()
 
-grass.speed(0.5)
-asalt.speed(0.5)
-houz.speed(0.5)
-tres.speed(0.5)
+grass.speed(0.1)
+asalt.speed(0.1)
+houz.speed(0.1)
+tres.speed(0.1)
 
 def makegrass():
     grass.begin_fill()
@@ -194,10 +194,16 @@ treez()
 tres.goto(300, -60)
 treez()
 
-tres.goto(-270, -80)
+tres.goto(-300, -80)
 treez()
 
 tres.goto(10, -60)
+treez()
+
+tres.goto(-170, -280)
+treez()
+
+tres.goto(140, -310)
 treez()
 
 turtle.exitonclick()
