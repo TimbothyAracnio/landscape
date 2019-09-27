@@ -206,4 +206,9 @@ treez()
 tres.goto(140, -310)
 treez()
 
+tres.penup()
+tres.goto(1000, 1000)
+
+
+
 turtle.exitonclick()
