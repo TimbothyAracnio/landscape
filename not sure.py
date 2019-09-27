@@ -98,6 +98,7 @@ def bush(colo, size):
     tres.penup()
 
 def treez():
+    tres.pendown()
     tres.left(60)
     tres.begin_fill()
     for i in range(20):
@@ -184,10 +185,19 @@ tres.right(90)
 tres.forward(20)
 tres.left(90)
 tres.pendown()
-treez()
 
 treez()
-tres.goto(-100, -20)
 
+tres.goto(-200, -30)
+treez()
+
+tres.goto(300, -60)
+treez()
+
+tres.goto(-270, -80)
+treez()
+
+tres.goto(10, -60)
+treez()
 
 turtle.exitonclick()
